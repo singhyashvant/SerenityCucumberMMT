@@ -1,4 +1,4 @@
-# Getting started with Serenity and Cucumber 4
+# Getting started with Serenity and Cucumber 
 
 [![CircleCI](https://circleci.com/gh/serenity-bdd/serenity-cucumber-starter.svg?style=svg)](https://circleci.com/gh/serenity-bdd/serenity-cucumber4-starter)
 
@@ -12,14 +12,14 @@ The latest version of Serenity supports both Cucumber 2.4 and the more recent Cu
 
 Git:
 
-    git clone https://github.com/serenity-bdd/serenity-cucumber4-starter.git
-    cd serenity-cucumber4-starter
+    git https://github.com/singhyashvant/SerenityCucumberMMT.git
+    cd SerenityCucumberMMT
 
 
-Or simply [download a zip](https://github.com/serenity-bdd/serenity-cucumber4-starter/archive/master.zip) file.
+Or simply [download a zip](https://github.com/singhyashvant/SerenityCucumberMMT.zip) file.
 
 ## The starter project
-The best place to start with Serenity and Cucumber is to clone or download the starter project on Github ([https://github.com/serenity-bdd/serenity-cucumber4-starter](https://github.com/serenity-bdd/serenity-cucumber4-starter)). This project gives you a basic project setup, along with some sample tests and supporting classes. There are two versions to choose from. The master branch uses a more classic approach, using action classes and lightweight page objects, whereas the **[screenplay](https://github.com/serenity-bdd/serenity-cucumber4-starter/tree/screenplay)** branch shows the same sample test implemented using Screenplay.
+The best place to start with Serenity and Cucumber is to clone or download the starter project on Github ([hhttps://github.com/singhyashvant/SerenityCucumberMMT](https://github.com/singhyashvant/SerenityCucumberMMT)). This project gives you a basic project setup, along with some sample tests and supporting classes. 
 
 ### The project directory structure
 The project has build scripts for both Maven and Gradle, and follows the standard directory structure used in most Serenity projects:
@@ -31,7 +31,8 @@ src
     + resources
       + features                    Feature files
         + search                    Feature file subdirectories 
-          search_by_keyword.feature  
+          flight_search.feature
+          hotel_search.feature  
       + webdriver                   Bundled webdriver binaries
         + linux
         + mac

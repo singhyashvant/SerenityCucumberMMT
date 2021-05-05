@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Flight search
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 69.978 s <<< FAILURE! - in Flight search
+Flight search.Search for flight with source and destinations  Time elapsed: 45.685 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Expected condition failed: waiting for By.xpath: //*[@class='font22 text-black append_bottom20 cards-heading'] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yashvant-Singh.local', ip: 'fe80:0:0:0:802:4ed1:9eef:e2fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_231'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for By.xpath: //*[@class='font22 text-black append_bottom20 cards-heading'] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yashvant-Singh.local', ip: 'fe80:0:0:0:802:4ed1:9eef:e2fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_231'
+Driver info: driver.version: unknown
+

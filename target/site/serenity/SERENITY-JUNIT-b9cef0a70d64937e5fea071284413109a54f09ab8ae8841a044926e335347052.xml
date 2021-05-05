@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Flight search" skipped="0" tests="2" time="69.09" timestamp="2021-05-05 10:52:56"><testcase name="Search for flight with source and destinations"><error message="Expected condition failed: waiting for By.xpath: //*[@class='font22 text-black append_bottom20 cards-heading'] to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Yashvant-Singh.local', ip: 'fe80:0:0:0:802:4ed1:9eef:e2fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_231'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Yashvant-Singh.local', ip: 'fe80:0:0:0:802:4ed1:9eef:e2fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_231'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for By.xpath: //*[@class='font22 text-black append_bottom20 cards-heading'] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yashvant-Singh.local', ip: 'fe80:0:0:0:802:4ed1:9eef:e2fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_231'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yashvant-Singh.local', ip: 'fe80:0:0:0:802:4ed1:9eef:e2fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_231'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //*[@class='font22 text-black append_bottom20 cards-heading'] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yashvant-Singh.local', ip: 'fe80:0:0:0:802:4ed1:9eef:e2fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_231'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Yashvant-Singh.local', ip: 'fe80:0:0:0:802:4ed1:9eef:e2fb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_231'
+Driver info: driver.version: unknown
+starter.search.SearchResult.assertFlightSearchTitle(SearchResult.java:22)
+starter.stepdefinitions.SearchMmtStepDefinitions.userShouldBeAbleToSeeTheSearchResults(SearchMmtStepDefinitions.java:41)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
+</system-err></testcase><testcase name="Search for flights"/></testsuite>
